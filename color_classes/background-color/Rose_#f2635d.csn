@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Rose #f2635d" description="">
+<insertText location="beforeSelection">
+<![CDATA[.bg-pink-f2635d]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

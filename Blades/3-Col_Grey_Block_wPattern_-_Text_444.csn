@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Grey Block w/Pattern - Text 4/4/4" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Grey Back with Pattern centered text and 3 column -->	
+<div class="container-fluid content-listing bg-grey-f9f9f9 js-card-clickable pattern-left">
+  <section class="row center-block text-center">
+    <h2 class="blade-title size38">H2 title text with a special &lt;br&gt; <br class="hidden-xs">
+      that wraps the text and hides when mobile</h2>
+    <div class="size22 text-center width890 center-block  px-40">
+      <p>multiline centered text. The classes on the DIV of this block can control width, text alignment, text size, and width of the block.</p>
+    </div>
+    <div class="row center-block mt-30 square-card-img-70">
+      <div class="col-xs-12 col-sm-4 match-height mt-0 mt-sm-40" style="height: 217px;">
+        <div class="card" style="border: none;background:none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/home/payroll-icon.ashx" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <p class="abstract"></p>
+            <h3 class="size22"><a href="#">H3 Text Link</a></h3>
+            <p>Default paragraph text without additional classes or controls </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 match-height mt-0 mt-sm-40" style="height: 217px;">
+        <div class="card" style="border: none;background:none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/home/time-and-attendance-icon.ashx" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <p class="abstract"></p>
+            <h3 class="size22"><a href="/what-we-offer/time-and-attendance.aspx">H3 Text Link</a></h3>
+            <p>Default paragraph text without additional classes or controls </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 match-height mt-0 mt-sm-40" style="height: 217px;">
+        <div class="card" style="border: none;background:none;"> <img src="https://www.adp.com//-/media/adp/redesign2018/images/home/talent-icon.ashx" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <p class="abstract"></p>
+            <h3 class="size22"><a href="/what-we-offer/talent.aspx">H3 Text Link</a></h3>
+            <p>Default paragraph text without additional classes or controls </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 match-height mt-0 mt-sm-40" style="height: 217px;">
+        <div class="card" style="border: none;background:none;"> <img src="https://www.adp.com//-/media/adp/redesign2018/images/home/benefits-icon.ashx" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <p class="abstract"></p>
+            <h3 class="size22"><a href="/what-we-offer/benefits.aspx">H3 Text Link</a></h3>
+            <p>Default paragraph text without additional classes or controls </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 match-height mt-0 mt-sm-40" style="height: 217px;">
+        <div class="card" style="border: none;background:none;"> <img src="https://www.adp.com//-/media/adp/redesign2018/images/home/hr-services-icon.ashx" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <p class="abstract"></p>
+            <h3 class="size22"><a href="/what-we-offer/hr-services.aspx">H3 Text Link</a></h3>
+            <p>Default paragraph text without additional classes or controls </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 match-height mt-0 mt-sm-40" style="height: 217px;">
+        <div class="card" style="border: none;background:none;"> <img src="https://www.adp.com//-/media/adp/redesign2018/images/home/outsourcing-options-icon.ashx" class="card-img" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <p class="abstract"></p>
+            <h3 class="size22"><a href="/what-we-offer/hr-outsourcing-and-peo.aspx">H3 Text Link</a></h3>
+            <p>Default paragraph text without additional classes or controls </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- END Grey Back with Pattern centered text and 3 column -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

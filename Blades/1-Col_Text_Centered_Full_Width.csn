@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col Text Centered Full Width" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START White Back Centered text Title and Text Blade -->	
+<div class="container-fluid no-gutter content-listing pb-0">
+    <section class="row center-block">
+      <h2 class="blade-title size38">H2 headline text centered</h2>
+      <div class="size22 text-center width890 center-block px-40">
+        <p>multiline centered text. The classes on the DIV of this block can control width, text alignment, text size, and width of the block. </p>
+      </div>
+    </section>
+</div>
+<!-- END White Back Centered text Title and Text Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

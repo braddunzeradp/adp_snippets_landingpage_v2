@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col IMG Left Text Right 6/6" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Grey Back Blade-->	
+<div class="container-fluid no-gutter bg-grey-f3f3f3 pt-50 pb-40" >
+  <section class="row center-block two-column">
+    <div class="col-xs-12 col-sm-6 img-main mt-0"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/img-laptop-payroll.ashx?h=256&amp;w=455&amp" alt=""> </div>
+    <div class="col-xs-12 col-sm-6 text-main">
+      <h2 class="header-bb">Spend less time running payroll</h2>
+      <p>ADP online payroll services help you save time with these convenient features:</p>
+      <ul class="bullets">
+        <li>Automated and error-free <a href="#">online payroll</a> processing</li>
+        <li>Easy-to-use self-service app for employees</li>
+        <li>Simple integration with time-tracking and HR</li>
+        <li>Payroll taxes calculated and paid on your behalf</li>
+        <li>Expert <a href="#">payroll software</a> and tax support when you need it</li>
+      </ul>
+    </div>
+  </section>
+</div>	
+<!--END Grey Back Blade-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

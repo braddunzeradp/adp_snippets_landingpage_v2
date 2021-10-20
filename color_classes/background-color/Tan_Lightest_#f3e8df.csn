@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Tan Lightest #f3e8df" description="">
+<insertText location="beforeSelection">
+<![CDATA[.bg-tan-f3e8df]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

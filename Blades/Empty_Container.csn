@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Empty Container" description="Use this to build custom content">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Container Blade -->
+<div class="container-fluid no-gutter pt-40 pb-40" >
+  <section class="row center-block text-center"> 
+    Raw Container Fluid
+  </section>
+</div>	
+<!-- START Container Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

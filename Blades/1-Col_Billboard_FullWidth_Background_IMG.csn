@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col Billboard FullWidth Background IMG" description="Two image references used to include one for mobile view. Blue box will go below image in mobile">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Billboard Fullwidth Background IMG -->	
+<div class="container-fluid hero-billboard" style="background-image: url('https://www.adp.com/-/media/adp/redesign2018/videos/Homepage/img-home-032719-c.ashx')">
+  <div class="container">
+    <section class="row center-block hero-img">
+      <div class="col-xs-12 img-main"> <img alt="" class="img-responsive" src="https://www.adp.com/-/media/adp/redesign2018/videos/Homepage/img-home-mobile-032619.ashx"> </div>
+      <div class="col-xs-12 col-sm-5 text-main">
+        <h1>H1 Header</h1>
+        <p>Text area controled with a P tag. This can be several lines of text, but not recommended to be more than three</p>
+        <p class="btn-wrap"><a class="btn trigger-modal cta-quote" href="#"><span>Standard Button</span></a> <br class="visible-xs">
+          <a class="btn btn-outline-rev mt-12 trigger-modal cta-demo" href="#"><span>Outline Button</span></a></p>
+      </div>
+    </section>
+  </div>
+</div>
+<!-- END Billboard Fullwidth Background IMG -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col With Icons 4/4/4" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START White Back Three Column Blade -->	
+<div class="container-fluid no-gutter content-listing js-card-clickable p-0">
+  <section class="row center-block">   
+      <div class="row center-block">
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="card" style="border: none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/home/1-49-employees-icon.ashx"  alt="">
+            <div class="card-body">
+              <h2 class="title"></h2>
+              <p class="abstract"></p>
+              <h3><a href="#">Text Link</a></h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="card" style="border: none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/home/50-999-employees-icon.ashx"  alt="">
+            <div class="card-body">
+              <h2 class="title"></h2>
+              <p class="abstract"></p>
+              <h3><a href="#">Text Link</a></h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="card" style="border: none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/home/1000-plus-employees-icon.ashx"  alt="">
+            <div class="card-body">
+              <h2 class="title"></h2>
+              <p class="abstract"></p>
+              <h3><a href="#">Text Link</a></h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+<!-- END White Back Three Column Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

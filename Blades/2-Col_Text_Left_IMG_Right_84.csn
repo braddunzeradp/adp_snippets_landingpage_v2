@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col Text Left IMG Right 8/4" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START White Back Blade -->	
+<div class="container-fluid no-gutter pt-30 pb-30">
+  <section class="row center-block two-column img-right">
+    <div class="col-xs-12 col-sm-5 col-md-4 img-main"> <img src="https://picsum.photos/300" alt=""> </div>
+    <div class="col-xs-12 col-sm-7 col-md-8 text-main">
+      <h3> H3 Headline</h3>
+      <ul class="bullets">
+        <li><strong>Bullet 1</strong> lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.</li>
+        <li><strong>Bullet 2</strong> lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.</li>
+        <li><strong>Bullet 3</strong> lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.n</li>
+      </ul>
+      <p>Curabitur tempor molestie purus, eget auctor elit tincidunt eu. Donec mauris lectus, cursus id porttitor nec, pellentesque feugiat ipsum. </p>
+      <p>Mauris ac ex facilisis odio laoreet scelerisque ut vel felis <a href="#">link text</a>.</p>
+    </div>
+  </section>
+</div>	
+<!-- END White Back Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

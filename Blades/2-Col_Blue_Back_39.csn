@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col Blue Back 3/9" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Blue Background Blade -->	
+<div class="container-fluid banner-cta bg-blue-121c4e" >
+    <section class="row center-block" >
+      <div class="col-xs-12 text-main px-md-0">
+        <div class="copy"><img class="float-sm-left mr-20 mb-xs-20 mx-xs-auto" alt="Special offer, 2 months free" src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-special-offer-orange.ashx">
+          <h2 class="pt-sm-20">H2 Title</h2>
+          <p class="size18">Paragraph text with class to add size 18 pixels</p>
+          <p class="size12">Paragraph text with class to add size of 12 pixels</p>
+        </div>
+        <div class="col-xs-12 col-sm-3 btn-block">
+          <p class="btn-wrap"> 
+			  <a class="btn btn-lg" href="#"><span>Standard Button</span></a> 
+			  <a class="btn btn-outline-rev btn-lg" href="#"><span>Outline Button</span></a> 
+		  </p>
+        </div>
+      </div>
+    </section>
+  </div>
+<!-- END Blue Background Blade -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

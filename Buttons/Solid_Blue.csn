@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Solid Blue" description="">
+<insertText location="beforeSelection">
+<![CDATA[<a class="btn" href="#"><span>Standard Button</span></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

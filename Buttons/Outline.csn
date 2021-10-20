@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Outline" description="">
+<insertText location="beforeSelection">
+<![CDATA[<a class="btn btn-outline-rev mt-12" href="#"><span>Outline Button</span></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

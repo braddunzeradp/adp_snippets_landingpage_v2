@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col Video Blade" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Video Blade -->
+<div class="container-fluid no-gutter pt-40 pb-40" >
+  <section class="row center-block"> 
+    <div class="col-sm-12 col-md-9 img-main center-block"> <a href="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/hr-services/VIDADPClientsShare4551x-video.ashx"></a><a href="https://www.youtube.com/watch?v=6lBonFjh7Z4&amp;time_continue=108&amp;autoplay=1&amp;rel=0&amp;hd=1&amp;enablejsapi=1" title="" class="video-thumb litymodal" data-lity><img class="w-100 h-100" alt=""  src="https://picsum.photos/900/600"></a>
+      <div class="caption">
+        <p class="title">ADP<sup>®</sup> Clients Share Their ADP Service Experiences</p>
+        <p>Hear from five ADP<sup>®</sup> clients who share how ADP has become an extension of their HR departments.</p>
+      </div>
+    </div>
+  </section>
+</div>	
+<!-- START Video Blade -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Rose Light #fac8bf" description="">
+<insertText location="beforeSelection">
+<![CDATA[.bg-pink-fac8bf]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col Cards IMG Text - Tan Back 6/6" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Two Column Blade -->	
+<div class="container-fluid content-listing bg-tan-f3e8df">
+  <section class="row center-block text-center">
+    <h2 class="blade-title ext-mb"> Product recommendations</h2>
+    <div class="row center-block width730">
+      <div class="col-xs-12 col-sm-6">
+        <div class="card" style="border:none;background:none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/small-business-payroll/RunPwrdbyADP2932x.ashx?h=330&amp;w=586&amp" class="card-img" alt="RUN Powered by ADP® platform and mobile app">         
+          <div class="card-body">
+            <h2 class="title"><a href="/what-we-offer/products/run-powered-by-adp.aspx">RUN Powered by ADP®</a><span class="card-type title-brow mt-10">For 1–49 Employees</span></h2>
+            <p class="abstract">A web-based solution that handles the nitty-gritty details of running small business payroll and HR, and now with ZipRecruiter® to help with hiring, so you can focus on what you do best.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="card" style="border:none;background:none;"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/small-business-payroll/TotalSourcePEO2932x.ashx?h=330&amp;w=586" class="card-img" alt="ADP TotalSource® platform and mobile app">           
+          <div class="card-body">
+            <h2 class="title"><a href="/what-we-offer/products/totalsource-peo.aspx">ADP TotalSource®</a><span class="card-type title-brow mt-10">For 1–1,000 Employees</span></h2>
+            <p class="abstract">A professional employer organization (PEO) with dedicated guidance and advanced cloud technology to manage your HR, talent, risks and payroll — plus access to Fortune 500®-caliber employee benefits.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>	
+<!-- END Two Column Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Flip Card" description="Requires Custom CSS to be added to the page">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Container Blade -->
+<div class="container-fluid no-gutter pt-40 pb-40" >
+  <!-- Team -->
+<section  class="pb-5">
+    
+        <div class="row m-auto"> 
+            <!-- START CARDr -->
+            <div class=" col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside w-100">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-flui" src="https://picsum.photos/400?v=1" alt="card image"></p>
+                                   
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside w-100">
+                            <div class="card" >
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">BackSide</h4>
+                                    <p class="card-text">Backside text goes here</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+            
+                <!-- START CARDr -->
+            <div class=" col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside w-100">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-flui" src="https://picsum.photos/400?v=2" alt="card image"></p>
+                                   
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside w-100">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">BackSide</h4>
+                                    <p class="card-text">Backside text goes here</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->    <!-- START CARDr -->
+            <div class=" col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside w-100">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-flui" src="https://picsum.photos/400?v=3" alt="card image"></p>
+                                   
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside w-100">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">BackSide</h4>
+                                    <p class="card-text">Backside text goes here</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END CARD -->
+          
+
+        </div>
+   
+</section>
+
+</div>	
+<!-- END Container Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

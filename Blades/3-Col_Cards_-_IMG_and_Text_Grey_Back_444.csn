@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Cards - IMG and Text Grey Back 4/4/4" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Grey Back 3 Column Blade -->	
+<div class="container-fluid no-gutter content-listing bg-grey-f9f9f9" >
+  <section class="row center-block">
+    <h3 class="blade-title ext-mb">Even more reasons to choose ADP</h3>
+    <div class="row center-block">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="border: none;background:none;"> <img src="https://picsum.photos/300" class="card-img mb-0" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <h3>Workers' comp</h3>
+            <p class="abstract"></p>
+            <p>When you partner with ADP for payroll, your business’s <a href="/what-we-offer/benefits/business-insurance/workers-compensation.aspx">workers’ compensation insurance</a> premium and payment can be automatically deducted every pay period — so you can <strong>improve cash flow and save money</strong> by avoiding a large upfront estimated premium.</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="border: none;background:none;"> <img src="https://picsum.photos/300" class="card-img mb-0" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <h3>Payday — your way</h3>
+            <p class="abstract"></p>
+            <p>A check, direct deposit or a pay card? It’s your payroll solution, so do it the way that works best for you. Choose from:</p>
+            <ul class="bullets">
+              <li>Direct deposit</li>
+              <li> Prepaid Visa® cards</li>
+              <li> Paper checks delivered to you</li>
+              <li> Print your own checks</li>
+            </ul>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="border: none;background:none;"> <img src="https://picsum.photos/300" class="card-img mb-0" alt="">
+          <div class="card-body">
+            <h2 class="title"></h2>
+            <h3>Integration</h3>
+            <p class="abstract"></p>
+            <p>Save time by integrating with your favorite business and accounting software including QuickBooks™, Wave and many more. Plus, discover hundreds of new apps at our online store, <a href="#">ADP Marketplace</a>&nbsp;and enjoy free 30-day, risk-free trials of many of our software solutions.</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>	
+<!-- END Grey Back 3 Column Blade -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

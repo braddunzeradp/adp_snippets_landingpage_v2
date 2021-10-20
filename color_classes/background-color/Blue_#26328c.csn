@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Blue #26328c" description="">
+<insertText location="beforeSelection">
+<![CDATA[.bg-blue-26328c]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

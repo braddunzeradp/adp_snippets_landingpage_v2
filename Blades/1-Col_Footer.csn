@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col Footer" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Footer -->	
+<footer id="footer-static" >
+  <div class="row center-block">
+    <div class="col-xs-12 col-sm-9 text-xs-center">
+      <ul class="sm-links">
+        <li> <a class="sm-icn sm-icn-facebook" href="https://www.facebook.com/AutomaticDataProcessing/"></a></li>
+        <li><a class="sm-icn sm-icn-twitter" href="https://twitter.com/adp"></a></li>
+        <li><a class="sm-icn sm-icn-youtube" href="https://www.youtube.com/user/adp"></a></li>
+        <li><a class="sm-icn sm-icn-linkedin" href="https://www.linkedin.com/company/adp"></a></li>
+        <li><a class="sm-icn sm-icn-googleplus" href="https://plus.google.com/113704408436778247421"></a></li>
+      </ul>
+      <ul class="legal-links">
+        <li><a href="https://www.adp.com/legal.aspx">Terms</a></li>
+        <li><a href="https://www.adp.com/privacy.aspx">Privacy</a></li>
+        <li><a href="https://www.adp.com/modern-slavery-statement.aspx">Modern Slavery Statement</a></li>
+      </ul>
+      <p class="size12"><span elqid="3434" elqtype="Section" class="remove-absolute" style="display: block">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, LLC. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;2019&nbsp;ADP,&nbsp;LLC. All&nbsp;rights&nbsp;reserved</span></p>
+    </div>
+  </div>
+</footer>
+<!-- END Footer -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
