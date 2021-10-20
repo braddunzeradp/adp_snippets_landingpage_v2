@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="JavaScript Include Link - Local File" description="">
+<insertText location="beforeSelection">
+<![CDATA[<script type="text/javascript" src="js/tabs.control.js"></script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

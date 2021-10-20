@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="_Instructions" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Tab Instructions -->
+	
+	Place the scripts
+	-  JavaScript Include Link - Local file
+	   This is the file that will stored in the local JS file and allow local testing. Place the reference with the other local JS files
+	
+	-  JavaScript Include Link - Hosted File
+	   Place this reference with the other hosted JS files.
+	
+	The Styles for the Tabs are already part of the main CSS file and do not require additional styles on the page.
+	There is a mobile style that is already part of the structure and will list items top to bottom instead of left to right. It acts more like an accordian
+	
+	The HTML is a Full Blade and should not be put into other Blades
+	
+	To add or remove tabs there is a simple metaphor to follow. The UL section controls the actual tab text.
+	To create another tab simple copy a <li> item and modify the href="" and the text of the tab.
+	Duplicate one of the <div> tags that start with <div class="tab-pane fade" id="two">
+	Modify the id to match the new id="" created on the <li> 
+	
+<!-- END Tab Instructions -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

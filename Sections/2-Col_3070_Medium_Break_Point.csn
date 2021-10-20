@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col 30/70 Medium Break Point" description="">
+<insertText location="beforeSelection">
+<![CDATA[  <section class="row center-block text-center"> 
+	<div class="col-md-4">Left</div>
+	<div class="col-md-8">Right</div>  
+  </section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="JavsScript Include Link - Hosted File" description="">
+<insertText location="beforeSelection">
+<![CDATA[<script src="https://img.en25.com/Web/ADPEmployerServices/{c34d7f79-cfda-411b-8566-7051b0dd111f}_tabs.control.js"></script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

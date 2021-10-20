@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="HTML Blade" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Tab  -->		
+<div class="container-fluid no-gutter pb-50 pt-50">
+    <section class="row center-block">
+     <div class="container" style="margin-top: 50px;">
+    <ul id="myTab" class="nav nav-tabs" >
+        <li  ><a class="active" href="#one" data-toggle="tab">Tab 1</a></li>
+        <li ><a href="#two" data-toggle="tab">Tab 2</a></li> 
+		<li ><a href="#three" data-toggle="tab">Tab 3</a></li> 
+    </ul>
+    <div id="myTabContent" class="tab-content pt-20"  >
+        <div class="tab-pane fade active show" id="one">
+			<div class="row">
+				<div class="col-xs-12 col-sm-5 col-md-4">Left</div>
+				<div class="col-xs-12 col-sm-7 col-md-8">Right</div>
+			</div>
+        </div>
+        <div class="tab-pane fade" id="two">
+            <p>Light Blue - is a next generation admin template based on the latest Metro design. There are few reasons we want to tell you, why we have created it:
+                We didn't like the darkness of most of admin templates, so we created this light one. We didn't like the high contrast of most of admin templates, so we created this unobtrusive one.
+                We searched for a solution of how to make widgets look like real widgets, so we decided that deep background - is what makes widgets look real.</p>
+        </div>
+		<div class="tab-pane fade" id="three">
+            <p>Tab 3 - is a next generation admin template based on the latest Metro design. There are few reasons we want to tell you, why we have created it:
+                We didn't like the darkness of most of admin templates, so we created this light one. We didn't like the high contrast of most of admin templates, so we created this unobtrusive one.
+                We searched for a solution of how to make widgets look like real widgets, so we decided that deep background - is what makes widgets look real.</p>
+        </div>
+    </div>
+</div>
+    </section>
+</div>
+<!-- END Tab -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

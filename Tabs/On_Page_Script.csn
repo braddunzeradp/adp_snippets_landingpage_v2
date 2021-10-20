@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="On Page Script" description="Place below jQuery includes and tab script">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START TABS SCRIPT -->	
+<script type="text/javascript">
+    $('#myTab').tabCollapse();
+</script>	
+<!-- END TABS SCRIPT -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
