@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="TextArea" description="">
+<insertText location="beforeSelection">
+<![CDATA[<label class="textarea">
+				  <textarea class="textarea"></textarea>
+              </label>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

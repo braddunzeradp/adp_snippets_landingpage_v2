@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="On Page Script" description="Place below jQuery and other JavaScript codes">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START SCROLL SCRIPT -->
+<!-- add id onto item being clicked and id to scroll to location -->
+<script type="text/javascript">	
+$(document).ready(function() {  
+    $('#contactme').click(function(){
+        $('html, body').animate({scrollTop: ($('.quote-form').offset().top)},500);
+    });
+});	
+</script>
+<!-- END SCROLL SCRIPT -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

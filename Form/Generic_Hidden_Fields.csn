@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Generic Hidden Fields" description="">
+<insertText location="beforeSelection">
+<![CDATA[ <input type="hidden" name="Generic_Question1" value="">
+             <input type="hidden" name="Generic_Answer1" value="">
+             <input type="hidden" name="Generic_Question2" value="">
+             <input type="hidden" name="Generic_Answer2" value="">
+             <input type="hidden" name="Generic_Question3" value="">
+             <input type="hidden" name="Generic_Answer3" value="">
+             <input type="hidden" name="Generic_Question4" value="">
+             <input type="hidden" name="Generic_Answer4" value="">        
+             <input type="hidden" name="Generic_Question5" value="">
+             <input type="hidden" name="Generic_Answer5" value="">
+             <input type="hidden" name="Generic_Question6" value="">
+             <input type="hidden" name="Generic_Answer6" value="">
+             <input type="hidden" name="Generic_Question7" value="">
+             <input type="hidden" name="Generic_Answer7" value="">
+             <input type="hidden" name="Generic_Question8" value="">
+             <input type="hidden" name="Generic_Answer8" value="">
+             <input type="hidden" name="Generic_Question9" value="">
+             <input type="hidden" name="Generic_Answer9" value="">
+             <input type="hidden" name="Generic_Question10" value="">
+             <input type="hidden" name="Generic_Answer10" value="">            
+             <input type="hidden" name="Generic_Question11" value="">
+             <input type="hidden" name="Generic_Answer11" value="">
+             <input type="hidden" name="Generic_Question12" value="">
+             <input type="hidden" name="Generic_Answer12" value="">
+             <input type="hidden" name="Generic_Question13" value="">
+             <input type="hidden" name="Generic_Answer13" value="">
+             <input type="hidden" name="Generic_Question14" value="">
+             <input type="hidden" name="Generic_Answer14" value="">
+             <input type="hidden" name="Generic_Question15" value="">
+             <input type="hidden" name="Generic_Answer15" value="">
+             <input type="hidden" name="Generic_Question16" value="">
+             <input type="hidden" name="Generic_Answer16" value="">            
+             <input type="hidden" name="Generic_Question17" value="">
+             <input type="hidden" name="Generic_Answer17" value="">            
+             <input type="hidden" name="Generic_Question18" value="">
+             <input type="hidden" name="Generic_Answer18" value="">            
+             <input type="hidden" name="Generic_Question19" value="">
+             <input type="hidden" name="Generic_Answer19" value="">                        
+             <input type="hidden" name="Generic_Question20" value="">
+             <input type="hidden" name="Generic_Answer20" value="">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

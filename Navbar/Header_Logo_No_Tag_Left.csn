@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header Logo No Tag Left" description="">
+<insertText location="beforeSelection">
+<![CDATA[<header class="sticky-top" style="border-bottom: 1px solid #999999;">	
+<div class="container">
+<nav class="navbar bg-white">
+ 	<a class="navbar-brand" href="https://www.adp.com/" target="_blank"><img src="https://img.en25.com/EloquaImages/clients/ADPEmployerServices/%7B176754e1-1075-43ff-a721-41f002fbe002%7D_adp-70x32.png" width="70" alt="ADP Logo"></a>
+</nav>
+</div>	
+</header>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

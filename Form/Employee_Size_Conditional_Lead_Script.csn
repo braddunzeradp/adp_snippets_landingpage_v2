@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Employee Size Conditional Lead Script" description="">
+<insertText location="beforeSelection">
+<![CDATA[<script type="text/javascript">
+
+var ranges = {
+  
+  'SFDC_Owner_ID':
+  
+   {  
+
+    '00G40000001USklEAG':{ min:0, max:49 }, 		// RS - Lead Queue - Qualified < 50 EE		00G40000001USkl	
+    '00G40000001V54DEAS':{ min:50, max:99999}		// RS - Lead Queue - Qualified > 50 EE		00G40000001V54D	
+  }
+  
+};
+
+$('#Number_of_Employees').keyup(findRange);
+
+function findRange(){
+    var num = parseInt( $('#Number_of_Employees').val() );
+    $('#SFDC_Owner_ID').val('');
+    for(field in ranges)
+    {
+      for(rng in ranges[field]){
+        if (num >= ranges[field][rng].min && num <= ranges[field][rng].max)
+        {
+          $('#'+field).val(rng);
+        }
+      }
+    }
+}
+
+</script>
+
+<!-- STOP CONDITIONAL LEAD QUEUE ASSIGNMENT SCRIPT -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

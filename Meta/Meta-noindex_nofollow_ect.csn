@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Meta-noindex_nofollow_ect" description="">
+<insertText location="beforeSelection">
+<![CDATA[<meta name="robots" content="noindex, nofollow, noimageindex, nosnippet, noarchive">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

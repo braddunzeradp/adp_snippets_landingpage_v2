@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ADP Logo w/ tag" description="">
+<insertText location="beforeSelection">
+<![CDATA[<img src="https://img.en25.com/EloquaImages/clients/ADPEmployerServices/%7Bb10d62ae-1c52-4129-8992-a2c36500e890%7D_adp-tagline-77x55.png" width="70" alt="ADP Logo">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

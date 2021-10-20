@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Top Button w/ Sidebar Form" description="">
+<insertText location="beforeSelection">
+<![CDATA[<a href="#" id="contactme" class="btn btn-xs login-btn-desktop hidden-md slideLeft">Contact </a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
