@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Local JavaScript File" description="">
+<insertText location="beforeSelection">
+<![CDATA[<script type="text/javascript" src="js/lity.min.js"></script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

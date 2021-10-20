@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="HTML To Place" description="">
+<insertText location="beforeSelection">
+<![CDATA[<div class="col-xs-12 img-main"> <a href="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/hr-services/VIDADPClientsShare4551x-video.ashx"></a><a href="https://www.youtube.com/watch?v=6lBonFjh7Z4&amp;time_continue=108&amp;autoplay=1&amp;rel=0&amp;hd=1&amp;enablejsapi=1" title="" class="video-thumb litymodal" data-lity><img alt="" style="height: auto; width: 100%;" src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/hr-services/VIDADPClientsShare4551x-video.ashx?h=256&amp;w=600&amp"></a>
+      <div class="caption">
+        <p class="title">ADP<sup>®</sup> Clients Share Their ADP Service Experiences</p>
+        <p>Hear from five ADP<sup>®</sup> clients who share how ADP has become an extension of their HR departments.</p>
+      </div>
+    </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

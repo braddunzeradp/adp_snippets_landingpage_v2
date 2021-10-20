@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Base" description="">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<html lang="en">
+<head>
+<!-- START DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ -->
+<script type="text/javascript">
+var currentTime = new Date()
+/* ----------------------------------------
+Configuration Instructions:
+YYYY = Year. Numerical Value (e.g., "2020")
+MM = Month. Numerical Value (e.g., "10")
+DD = Day. Numerical Value (e.g., "15")
+H = Hour. Numerical 24 Hour Value (e.g., "5")
+M = Minutes. Numerical Value (e.g., "30")
+S = Seconds. Numerical Value (e.g., "00")
+Important:
+(a) Jan = 0; Feb = 1; Mar = 2; Apr = 3; May = 4; Jun = 5; Jul = 6; Aug = 7; Sep = 8; Oct = 9; Nov = 10; Dec = 11
+(b) Keep commas between each value.
+---------------------------------------- */
+var dt = new Date (2020,11,01,01,00,00);
+if (currentTime > dt ) {
+window.location = "https://secure.adpinfo.com/page-expired";
+}
+</script>
+<!-- STOP DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ -->
+
+	
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noimageindex, nosnippet, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="products" content="xxx,abc">
+<meta name="topics" content="xxx,abc">
+	
+	
+<title>ADP</title>
+	
+<!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+Campaign ID: 
+Email ID: 
+LP ID: 
+Form ID: 
+
+
+PD/CD:
+MT:
+GD: 
+
+ 
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->	
+	
+
+<!-- START LOCAL CSS  -->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap-adp.css" >
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css" >
+
+<!-- ADP CSS  -->
+<link rel="stylesheet" href="css/adp-form.css" >
+<link rel="stylesheet" href="css/adp-fonts.css" >
+<link rel="stylesheet" href="css/bootstrap-adp-landingpages.css" >	
+<link rel="stylesheet" href="css/lity.min.css" >		
+<!-- END LOCAL CSS  -->
+
+<!-- START HOSTED CSS  -->
+<!-- 
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{46ae07e8-64ba-47f3-aa7b-6958eee86268}_bootstrap-adp.css" >
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{def85f2a-3c1d-4b9f-9996-705efa391a91}_bootstrap-reboot.min.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{a02a5d62-81cc-4205-b245-be10385660e7}_adp-form.css" >
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{39c6bade-5063-4432-88b8-f7899c4f32ca}_adp-fonts.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{f93995c6-76e4-4c54-a67a-384f5835e012}_lity.min.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{086d0105-08d4-45c6-a6eb-d68a2e07ba5f}_bootstrap-adp-landingpages.css">
+<link rel="shortcut icon" href="https://www.adp.com/-/media/adp/redesign2018/ui/favicon.ico">
+
+-->
+<!-- END HOSTED CSS  -->
+
+
+	
+</head>
+<body>
+<header class="sticky-top bg-white" style="border-bottom: 1px solid #999999;">	
+<div class="container">
+<nav class="navbar bg-white">
+ 	<a class="navbar-brand" href="https://www.adp.com/" target="_blank"><img src="https://img.en25.com/EloquaImages/clients/ADPEmployerServices/%7B176754e1-1075-43ff-a721-41f002fbe002%7D_adp-70x32.png" width="70" alt="ADP Logo"></a>
+</nav>
+</div>	
+</header>
+	
+<!-- Start body wrapper-->
+<div id="main">
+<!-- /\/\/\ START CONTENT /\/\/\ -->
+	
+
+	
+	
+	
+<!-- /\/\/\ END CONTENT /\/\/\ -->
+	
+	
+<!-- START Footer -->	
+<footer id="footer-static" >
+  <div class="row center-block">
+    <div class="col-xs-12 col-sm-9 text-xs-center">
+      <ul class="sm-links">
+        <li> <a class="sm-icn sm-icn-facebook" href="https://www.facebook.com/AutomaticDataProcessing/"></a></li>
+        <li><a class="sm-icn sm-icn-twitter" href="https://twitter.com/adp"></a></li>
+        <li><a class="sm-icn sm-icn-youtube" href="https://www.youtube.com/user/adp"></a></li>
+        <li><a class="sm-icn sm-icn-linkedin" href="https://www.linkedin.com/company/adp"></a></li>
+        <li><a class="sm-icn sm-icn-googleplus" href="https://plus.google.com/113704408436778247421"></a></li>
+      </ul>
+      <ul class="legal-links">
+        <li><a href="https://www.adp.com/legal.aspx">Terms</a></li>
+        <li><a href="https://www.adp.com/privacy.aspx">Privacy</a></li>
+        <li><a href="https://www.adp.com/modern-slavery-statement.aspx">Modern Slavery Statement</a></li>
+      </ul>
+      <p class="size12"><span elqid="3434" elqtype="Section" class="remove-absolute" style="display: block">ADP, the ADP logo, and Always Designing for People are trademarks of ADP, LLC. All other marks are the property of their respective owners. Copyright&nbsp;©&nbsp;2019&nbsp;ADP,&nbsp;LLC. All&nbsp;rights&nbsp;reserved</span></p>
+    </div>
+  </div>
+</footer>
+<!-- END Footer -->
+	
+	
+</div>	
+<!-- end body wrapper-->
+
+	
+<!-- START local js files delete when placing in Eloqua  --> 
+<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/ct.form.validation.jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/ct.form.validation.jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/lity.min.js"></script><!-- Video Modal -->	
+
+<!-- END local js files delete when placing in Eloqua --> 
+
+<!-- START external js files. remove comments when placing in Eloqua --> 
+<!-- 
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"  ></script>
+
+<script src="https://img.en25.com/Web/ADPEmployerServices/{1f41eb1f-ae28-4739-b8b8-785a2a336e3a}_ct.form.validation.jquery.validate.min.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{3e6605ed-57a4-4546-a67d-819af12536c8}_ct.form.validation.jquery.maskedinput.min.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{e102f117-7532-467d-861c-a057817fab24}_lity.min.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{1390f977-3e5c-4317-9b82-849f693d446b}_includer.js"></script>
+
+--> 
+<!-- END external js files. remove comments when placing in Eloqua -->
+
+
+	
+<!-- START FORM FIELD VALIDATION -->        
+		<script type="text/javascript">
+			$(function()
+			{
+				// Validation
+				$("#adp-form").validate(
+				{					
+					// SECTION BELOW HANDLES FORM FIELD VALIDATION.
+					rules:
+					{
+						Email:{required: true,email: true},
+						First_Name:{required: true},
+						Last_Name:{required: true},
+						Phone:{required: true},
+						Company:{required: true},
+						Number_of_Employees:{required: true,digits: true,maxlength:6},
+						Zip_or_Postal_Code:{required: true,digits: true,maxlength:5},
+						Country:{required: true},
+						ADP_Client:{required: true},
+						/*State_or_Province:{required: true},*/
+						/*comments:{required: false},*/
+						/*multiselect:{required: true},*/
+						/*'checkboxgrp1[]':{required: true},*/
+						/*'checkboxgrp2[]':{required: true},*/
+						/*radiogrp1:{required: true},*/
+						/*radiogrp2:{required: true} */	
+					},
+					
+					/* SECTION BELOW HANDLES ERROR MESSAGES BELOW QUESTION*/
+					messages:
+					{
+						Email:
+						{required: 'Enter your email address in the field above.',email: 'Enter a valid email address in the field above.'},
+						
+						First_Name:
+						{required: 'Enter your first name in the field above.'},
+						
+						Last_Name:
+						{required: 'Enter your last name in the field above.'},
+
+						Phone:
+						{required: 'Enter your phone number in the field above.'},
+
+						Company:
+						{required: 'Enter company name in the field above.'},
+
+						Number_of_Employees:
+						{required: 'Enter total employees in the above field.',digits: 'Numerical values only please.'},
+
+						Zip_or_Postal_Code:
+						{required: 'Please enter zip code',digits: 'Numerical values only please.'},
+
+						Country:
+						{required: 'Please choose a country from the field above.'},
+
+						ADP_Client:
+						{required: 'Please choose an answer value above.'},
+                    
+						State_or_Province:
+						{required: 'Choose a state from the field above.'},
+						
+						country:
+						{required: 'Please select your country'},
+						
+						city:
+						{required: 'Please enter your city'},
+
+						select:
+						{required: 'Please select an option'},
+
+						multiselect:
+						{required: 'Please select one or more options'},
+						
+						'checkboxgrp[]':
+						{required: 'Please select one or more options'},
+						
+						radio:
+						{required: 'Please select an option'}
+						
+					},	
+			
+					/* SubmitHandler disables the submit button to prevent double submissions on slow form response	*/
+			submitHandler: function (form) {$(".adpbutton").attr("disabled", true).val("Please wait ...");form.submit(); 
+        },
+			
+					
+					/* Do not change code below*/
+					errorPlacement: function(error, element){error.insertAfter(element.parent());}
+				});
+			});			
+		</script>
+<!-- STOP FORM FIELD VALIDATION -->   
+	
+	 <!-- Phone Mask Script --> 
+		<script type="text/javascript">
+			$(function()
+			{
+			// Masking
+ 			  $("#Phone").mask('(999) 999-9999');
+			});			
+		</script>	
+
+<script type="text/javascript">
+// used to format the number of employees no decimal
+$(window).on('load',function() {
+$('.decimal').each(function(){
+    if($(this).val().indexOf('.')!=-1){         
+        if($(this).val().split(".")[1].length > 2){                
+            if( isNaN( parseFloat( this.value ) ) ) return;
+            this.value = parseFloat(this.value).toFixed(0);
+        }  
+     }            
+     return this; //for chaining
+});
+});	   
+</script>	
+	
+<!-- START URL Parameter Extraction Script -->	
+<script type="text/javascript">
+// 1. Call $.urlParam with the name of the parameter (case-sensitive) you want to retrieve the value for and set it = to a variable.
+// Example:  var kw = $.urlParam('Keyword');
+// 2. Then set the variable to the field value.
+// Example:  $('#Keyword').val(kw);
+
+
+$(document).ready(function() {
+  
+  var gcl_id = $.urlParam('gclid');
+  var gcl_src = $.urlParam('gclsrc');
+  var ecid = $.urlParam('elqCampaignId');
+  var camp = $.urlParam('CID'); 
+  var pid = $.urlParam('promoid');
+  var q_1 = $.urlParam('q1');
+  var q_2 = $.urlParam('q2');
+  var q_3 = $.urlParam('q3');
+  var kw = $.urlParam('Keyword');
+  var kmt = $.urlParam('Keyword_Match_Type');  
+  var dccampid = $.urlParam('dc_campid'); 
+  var dcadgroupid = $.urlParam('dc_adgroupid'); 
+  var rs = $.urlParam('Referring_Source');
+  var aci = $.urlParam('Ad_Content_ID'); 
+  var sfdcownerid = $.urlParam('LOID');
+  var vn = $.urlParam('VEN');
+  var pos = $.urlParam('position');
+  var place = $.urlParam('placement');
+  var tid = $.urlParam('targetid');
+  var nw = $.urlParam('network');
+  var dv = $.urlParam('device');  
+  var lpi = $.urlParam('Landing_Page_ID');
+  var url = document.location;
+  var refurl = document.referrer;
+  
+  if (nw == "d") {$('#Lead_Source_Detail').val("Display");} 
+	else 
+	{
+	if (kw.length > 0) 
+	{$('#Lead_Source_Detail').val("SEM - Contact Me");} 
+	else 
+	{$('#Lead_Source_Detail').val("Contact Me");}
+  }
+  
+  if (gcl_id.length > 0) { $('#gclid').val(gcl_id); }
+  if (gcl_src.length > 0) { $('#gclsrc').val(gcl_src); }
+  if (ecid.length > 0) { $('#elqCampaignId').val(ecid); }
+  if (camp.length > 0) {$('#Wild_Card_2').val(camp); } //cid
+  if (pid.length > 0) { $('#PromoID').val(pid); }
+  if ( q_1.length > 0) { $('#q1').val(q_1); }
+  if ( q_2.length > 0) { $('#q2').val(q_2); }
+  if ( q_3.length > 0) { $('#q3').val(q_3); }
+  if ( kw.length > 0) { $('#Keyword').val(kw); }
+  if ( kmt.length > 0) { $('#Keyword_Match_Type').val(kmt); }
+  if ( dccampid.length > 0) { $('#dc_campid').val(dccampid); }
+  if ( dcadgroupid.length > 0) { $('#dc_adgroupid').val(dcadgroupid); }
+  if ( rs.length > 0) { $('#Referring_Source').val(rs); }
+  if ( aci.length > 0) { $('#Ad_Content_ID').val(aci); }
+  if ( sfdcownerid.length > 0) { $('#SFDC_Owner_ID').val(sfdcownerid); }
+  if ( vn.length > 0) { $('#Vendor_Name').val(vn); }
+  if ( pos.length > 0) { $('#position').val(pos); }
+  if ( place.length > 0) { $('#placement').val(place); }
+  if ( tid.length > 0) { $('#targetid').val(tid); }
+  if ( nw.length > 0) { $('#network').val(nw); }
+  if ( dv.length > 0) { $('#device').val(dv); }
+  if ( lpi.length > 0) { $('#Landing_Page_ID').val(lpi); }
+  $('#URL').val(url);  
+  $('#Referring_URL').val(refurl);
+});
+
+$.urlParam = function(name){
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)","i");
+    results = regex.exec(location.search);
+	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+</script>		
+<!-- END URL Parameter Extraction Script -->		
+
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

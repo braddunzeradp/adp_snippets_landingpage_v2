@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Base + Lead Form Optional AutoFill " description="">
+<insertText location="beforeSelection">
+<![CDATA[<!doctype html>
+<html lang="en">
+<head>
+<!-- START DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ -->
+<script type="text/javascript">
+var currentTime = new Date()
+/* ----------------------------------------
+Configuration Instructions:
+YYYY = Year. Numerical Value (e.g., "2020")
+MM = Month. Numerical Value (e.g., "10")
+DD = Day. Numerical Value (e.g., "15")
+H = Hour. Numerical 24 Hour Value (e.g., "5")
+M = Minutes. Numerical Value (e.g., "30")
+S = Seconds. Numerical Value (e.g., "00")
+Important:
+(a) Jan = 0; Feb = 1; Mar = 2; Apr = 3; May = 4; Jun = 5; Jul = 6; Aug = 7; Sep = 8; Oct = 9; Nov = 10; Dec = 11
+(b) Keep commas between each value.
+---------------------------------------- */
+var dt = new Date (2020,11,01,01,00,00);
+if (currentTime > dt ) {
+window.location = "https://secure.adpinfo.com/page-expired";
+}
+</script>
+<!-- STOP DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ -->
+
+	
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noimageindex, nosnippet, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="products" content="xxx,abc">
+<meta name="topics" content="xxx,abc">
+	
+	
+<title>ADP</title>
+	
+<!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+Campaign ID: 
+Email ID: 
+LP ID: 
+Form ID: 
+
+
+PD/CD:
+MT:
+GD: 
+
+ 
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->	
+	
+<!-- START LOCAL CSS  -->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap-adp.css" >
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css" >
+
+<!-- ADP CSS  -->
+<link rel="stylesheet" href="css/adp-form.css" >
+<link rel="stylesheet" href="css/adp-fonts.css" >
+<link rel="stylesheet" href="css/bootstrap-adp-landingpages.css" >	
+<link rel="stylesheet" href="css/lity.min.css" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<!-- END LOCAL CSS  -->
+
+<!-- START HOSTED CSS  -->
+<!--
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{46ae07e8-64ba-47f3-aa7b-6958eee86268}_bootstrap-adp.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{def85f2a-3c1d-4b9f-9996-705efa391a91}_bootstrap-reboot.min.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{a02a5d62-81cc-4205-b245-be10385660e7}_adp-form.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{39c6bade-5063-4432-88b8-f7899c4f32ca}_adp-fonts.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{f93995c6-76e4-4c54-a67a-384f5835e012}_lity.min.css">
+<link rel="stylesheet" href="https://img.en25.com/Web/ADPEmployerServices/{086d0105-08d4-45c6-a6eb-d68a2e07ba5f}_bootstrap-adp-landingpages.css">
+<link rel="shortcut icon" href="https://www.adp.com/-/media/adp/redesign2018/ui/favicon.ico">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+-->
+<!-- END HOSTED CSS  -->
+
+<!-- START Style overrides for ADP Form -->
+<style>
+.adp-form .checkbox input + i	{color:#529800;}
+.adp-form .checkbox input + i:after {content: none;}	
+</style>
+<!-- STOP Style overrides for ADP Form -->
+	
+<style>
+#formcontainer {
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+</style>	
+	
+</head>
+<body>
+<header class="sticky-top bg-white" style="border-bottom: 1px solid #999999;">	
+<div class="container">
+<nav class="navbar bg-white">
+ 	<a class="navbar-brand" href="https://www.adp.com/?elqTrackId=91b57e97b1f9477080f806e9aef33000" target="_blank"><img src="https://img.en25.com/EloquaImages/clients/ADPEmployerServices/%7B176754e1-1075-43ff-a721-41f002fbe002%7D_adp-70x32.png" width="70" alt="ADP Logo"></a>
+	<a href="#" id="contactme" class="btn btn-xs login-btn-desktop slideLeft">Download</a>
+</nav>
+</div>	
+</header>
+	
+<!-- Start body wrapper-->
+<div id="main">
+<!-- /\/\/\ START CONTENT /\/\/\ -->
+	
+	
+<!-- START Form -->
+<div class="container-fluid quote-form">
+  <div class="middle">
+    <div id="formcontainer" class="form-container">
+		<div class="page-header">
+          
+        <h2>H2 Header</h2>
+			<p id="headline" class="ml-md-5 mr-md-5 headline" style="text-align: center;">Please update your information below to download your document</p>
+        </div>
+      <form name="***** E D I T*****" id="adp-form" class="adp-form pt-3" autocomplete="off" action="https://s937.t.eloqua.com/e/f2" method="post">
+		    <div style="visibility:hidden; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;">
+			<input type="hidden" name="elqSiteID" value="937">
+				
+					
+			<input type="hidden" name="SFDC_Owner_ID" id="SFDC_Owner_ID" value="***** E D I T*****">
+			<input type="hidden" name="elqFormName" value="***** E D I T*****">
+			<input type="hidden" name="BU" id="BU" value="***** E D I T*****"> 
+			<input type="hidden" name="PromoID" id="PromoID" value="***** E D I T*****">
+			<input type="hidden" name="elqCampaignId" value="***** E D I T*****"> 
+			<input type="hidden" name="Comments" value="***** E D I T*****">	
+			<input type="hidden" name="Product" value="***** E D I T*****">
+			<input type="hidden" name="Shared_List_ID" id="Shared_List_ID" value="***** E D I T*****">
+			<input type="hidden" name="thanksURL" id="thanksURL" value="***** E D I T*****">	
+ <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->					
+				
+			<input type="hidden" name="Lead_Source_New" value="Web Form">	  
+			<input type="hidden" name="Lead_Source_Detail" value="Contact Me">		
+			<input type="hidden" name="Fullfillment" value="">
+			<input type="hidden" name="URL" id="URL" value="">
+			<input type="hidden" name="Referring_URL" id="Referring_URL" value="">		
+			<input type="hidden" name="Unique_ID_2" value="" >  
+			<input type="hidden" name="elqCookieWrite" value="0">
+			<input type="hidden" name="Wild_Card_2" id="Wild_Card_2" value="elq_sales_enablement">
+			<input type="hidden" name="Wild_Card_4" id="Wild_Card_4" value="">
+			<input type="hidden" name="elqCustomerGUID" value="">			
+
+ <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->		
+		   </div>
+		  
+        <fieldset>
+         
+          <div class="row">
+         
+            <section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Email Address</p>
+              <label class="input">
+                <input type="email" name="Email" id="Email"  >
+              </label>
+            </section>
+			 <section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Zip Code</p>
+              <label class="input">
+                <input type="text" name="Zip_or_Postal_Code" id="Zip_or_Postal_Code" >
+              </label>
+            </section>
+          </div>
+          <div class="row" >
+           
+            <section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Number of Employees</p>
+              <label class="input">
+                <input  type="text" name="Number_of_Employees" class="decimal" id="Number_of_Employees" >
+              </label>
+            </section>
+			  <section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Country</p>
+              <label id="" class="select">
+                <select name="Country" id="Country" class="selectlist">
+                  <option selected="selected" hidden value="">Country (Please Choose)</option>
+                  <option value="United States">United States</option>
+                  <option value="Afghanistan">Afghanistan</option>
+                  <option value="Albania">Albania</option>
+                  <option value="Algeria">Algeria</option>
+                  <option value="American Samoa">American Samoa</option>
+                  <option value="Andorra">Andorra</option>
+                  <option value="Angola">Angola</option>
+                  <option value="Anguilla">Anguilla</option>
+                  <option value="Antartica">Antartica</option>
+                  <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Armenia">Armenia</option>
+                  <option value="Aruba">Aruba</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Austria">Austria</option>
+                  <option value="Azerbaijan">Azerbaijan</option>
+                  <option value="Bahamas">Bahamas</option>
+                  <option value="Bahrain">Bahrain</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                  <option value="Barbados">Barbados</option>
+                  <option value="Belarus">Belarus</option>
+                  <option value="Belgium">Belgium</option>
+                  <option value="Belize">Belize</option>
+                  <option value="Benin">Benin</option>
+                  <option value="Bermuda">Bermuda</option>
+                  <option value="Bhutan">Bhutan</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+                  <option value="Botswana">Botswana</option>
+                  <option value="Bouvet Island">Bouvet Island</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                  <option value="Brunei Darussalam">Brunei Darussalam</option>
+                  <option value="Bulgaria">Bulgaria</option>
+                  <option value="Burkina Faso">Burkina Faso</option>
+                  <option value="Burundi">Burundi</option>
+                  <option value="Cambodia">Cambodia</option>
+                  <option value="Cameroon">Cameroon</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Cape Verde">Cape Verde</option>
+                  <option value="Cayman Islands">Cayman Islands</option>
+                  <option value="Central African Republic">Central African Republic</option>
+                  <option value="Chad">Chad</option>
+                  <option value="Chile">Chile</option>
+                  <option value="China">China</option>
+                  <option value="Christmas Island">Christmas Island</option>
+                  <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Comoros">Comoros</option>
+                  <option value="Congo">Congo</option>
+                  <option value="Congo">Congo, the Democratic Republic of the</option>
+                  <option value="Cook Islands">Cook Islands</option>
+                  <option value="Costa Rica">Costa Rica</option>
+                  <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+                  <option value="Croatia">Croatia (Hrvatska)</option>
+                  <option value="Cuba">Cuba</option>
+                  <option value="Cyprus">Cyprus</option>
+                  <option value="Czech Republic">Czech Republic</option>
+                  <option value="Denmark">Denmark</option>
+                  <option value="Djibouti">Djibouti</option>
+                  <option value="Dominica">Dominica</option>
+                  <option value="Dominican Republic">Dominican Republic</option>
+                  <option value="East Timor">East Timor</option>
+                  <option value="Ecuador">Ecuador</option>
+                  <option value="Egypt">Egypt</option>
+                  <option value="El Salvador">El Salvador</option>
+                  <option value="Equatorial Guinea">Equatorial Guinea</option>
+                  <option value="Eritrea">Eritrea</option>
+                  <option value="Estonia">Estonia</option>
+                  <option value="Ethiopia">Ethiopia</option>
+                  <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
+                  <option value="Faroe Islands">Faroe Islands</option>
+                  <option value="Fiji">Fiji</option>
+                  <option value="Finland">Finland</option>
+                  <option value="France">France</option>
+                  <option value="France Metropolitan">France, Metropolitan</option>
+                  <option value="French Guiana">French Guiana</option>
+                  <option value="French Polynesia">French Polynesia</option>
+                  <option value="French Southern Territories">French Southern Territories</option>
+                  <option value="Gabon">Gabon</option>
+                  <option value="Gambia">Gambia</option>
+                  <option value="Georgia">Georgia</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="Gibraltar">Gibraltar</option>
+                  <option value="Greece">Greece</option>
+                  <option value="Greenland">Greenland</option>
+                  <option value="Grenada">Grenada</option>
+                  <option value="Guadeloupe">Guadeloupe</option>
+                  <option value="Guam">Guam</option>
+                  <option value="Guatemala">Guatemala</option>
+                  <option value="Guinea">Guinea</option>
+                  <option value="Guinea-Bissau">Guinea-Bissau</option>
+                  <option value="Guyana">Guyana</option>
+                  <option value="Haiti">Haiti</option>
+                  <option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
+                  <option value="Holy See">Holy See (Vatican City State)</option>
+                  <option value="Honduras">Honduras</option>
+                  <option value="Hong Kong">Hong Kong</option>
+                  <option value="Hungary">Hungary</option>
+                  <option value="Iceland">Iceland</option>
+                  <option value="India">India</option>
+                  <option value="Indonesia">Indonesia</option>
+                  <option value="Iran">Iran (Islamic Republic of)</option>
+                  <option value="Iraq">Iraq</option>
+                  <option value="Ireland">Ireland</option>
+                  <option value="Israel">Israel</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Jamaica">Jamaica</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Jordan">Jordan</option>
+                  <option value="Kazakhstan">Kazakhstan</option>
+                  <option value="Kenya">Kenya</option>
+                  <option value="Kiribati">Kiribati</option>
+                  <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
+                  <option value="Korea">Korea, Republic of</option>
+                  <option value="Kuwait">Kuwait</option>
+                  <option value="Kyrgyzstan">Kyrgyzstan</option>
+                  <option value="Lao">Lao People's Democratic Republic</option>
+                  <option value="Latvia">Latvia</option>
+                  <option value="Lebanon">Lebanon</option>
+                  <option value="Lesotho">Lesotho</option>
+                  <option value="Liberia">Liberia</option>
+                  <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                  <option value="Liechtenstein">Liechtenstein</option>
+                  <option value="Lithuania">Lithuania</option>
+                  <option value="Luxembourg">Luxembourg</option>
+                  <option value="Macau">Macau</option>
+                  <option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
+                  <option value="Madagascar">Madagascar</option>
+                  <option value="Malawi">Malawi</option>
+                  <option value="Malaysia">Malaysia</option>
+                  <option value="Maldives">Maldives</option>
+                  <option value="Mali">Mali</option>
+                  <option value="Malta">Malta</option>
+                  <option value="Marshall Islands">Marshall Islands</option>
+                  <option value="Martinique">Martinique</option>
+                  <option value="Mauritania">Mauritania</option>
+                  <option value="Mauritius">Mauritius</option>
+                  <option value="Mayotte">Mayotte</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="Micronesia">Micronesia, Federated States of</option>
+                  <option value="Moldova">Moldova, Republic of</option>
+                  <option value="Monaco">Monaco</option>
+                  <option value="Mongolia">Mongolia</option>
+                  <option value="Montserrat">Montserrat</option>
+                  <option value="Morocco">Morocco</option>
+                  <option value="Mozambique">Mozambique</option>
+                  <option value="Myanmar">Myanmar</option>
+                  <option value="Namibia">Namibia</option>
+                  <option value="Nauru">Nauru</option>
+                  <option value="Nepal">Nepal</option>
+                  <option value="Netherlands">Netherlands</option>
+                  <option value="Netherlands Antilles">Netherlands Antilles</option>
+                  <option value="New Caledonia">New Caledonia</option>
+                  <option value="New Zealand">New Zealand</option>
+                  <option value="Nicaragua">Nicaragua</option>
+                  <option value="Niger">Niger</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Niue">Niue</option>
+                  <option value="Norfolk Island">Norfolk Island</option>
+                  <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                  <option value="Norway">Norway</option>
+                  <option value="Oman">Oman</option>
+                  <option value="Pakistan">Pakistan</option>
+                  <option value="Palau">Palau</option>
+                  <option value="Panama">Panama</option>
+                  <option value="Papua New Guinea">Papua New Guinea</option>
+                  <option value="Paraguay">Paraguay</option>
+                  <option value="Peru">Peru</option>
+                  <option value="Philippines">Philippines</option>
+                  <option value="Pitcairn">Pitcairn</option>
+                  <option value="Poland">Poland</option>
+                  <option value="Portugal">Portugal</option>
+                  <option value="Puerto Rico">Puerto Rico</option>
+                  <option value="Qatar">Qatar</option>
+                  <option value="Reunion">Reunion</option>
+                  <option value="Romania">Romania</option>
+                  <option value="Russia">Russian Federation</option>
+                  <option value="Rwanda">Rwanda</option>
+                  <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                  <option value="Saint LUCIA">Saint LUCIA</option>
+                  <option value="Saint Vincent">Saint Vincent and the Grenadines</option>
+                  <option value="Samoa">Samoa</option>
+                  <option value="San Marino">San Marino</option>
+                  <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                  <option value="Saudi Arabia">Saudi Arabia</option>
+                  <option value="Senegal">Senegal</option>
+                  <option value="Seychelles">Seychelles</option>
+                  <option value="Sierra">Sierra Leone</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Slovakia">Slovakia (Slovak Republic)</option>
+                  <option value="Slovenia">Slovenia</option>
+                  <option value="Solomon Islands">Solomon Islands</option>
+                  <option value="Somalia">Somalia</option>
+                  <option value="South Africa">South Africa</option>
+                  <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
+                  <option value="Spain">Spain</option>
+                  <option value="SriLanka">Sri Lanka</option>
+                  <option value="St. Helena">St. Helena</option>
+                  <option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
+                  <option value="Sudan">Sudan</option>
+                  <option value="Suriname">Suriname</option>
+                  <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+                  <option value="Swaziland">Swaziland</option>
+                  <option value="Sweden">Sweden</option>
+                  <option value="Switzerland">Switzerland</option>
+                  <option value="Syria">Syrian Arab Republic</option>
+                  <option value="Taiwan">Taiwan, Province of China</option>
+                  <option value="Tajikistan">Tajikistan</option>
+                  <option value="Tanzania">Tanzania, United Republic of</option>
+                  <option value="Thailand">Thailand</option>
+                  <option value="Togo">Togo</option>
+                  <option value="Tokelau">Tokelau</option>
+                  <option value="Tonga">Tonga</option>
+                  <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                  <option value="Tunisia">Tunisia</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="Turkmenistan">Turkmenistan</option>
+                  <option value="Turks and Caicos">Turks and Caicos Islands</option>
+                  <option value="Tuvalu">Tuvalu</option>
+                  <option value="Uganda">Uganda</option>
+                  <option value="Ukraine">Ukraine</option>
+                  <option value="United Arab Emirates">United Arab Emirates</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                  <option value="Uruguay">Uruguay</option>
+                  <option value="Uzbekistan">Uzbekistan</option>
+                  <option value="Vanuatu">Vanuatu</option>
+                  <option value="Venezuela">Venezuela</option>
+                  <option value="Vietnam">Viet Nam</option>
+                  <option value="Virgin Islands (British)">Virgin Islands (British)</option>
+                  <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
+                  <option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
+                  <option value="Western Sahara">Western Sahara</option>
+                  <option value="Yemen">Yemen</option>
+                  <option value="Yugoslavia">Yugoslavia</option>
+                  <option value="Zambia">Zambia</option>
+                  <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+              </label>
+            </section>
+          </div>
+         <!-- start -->
+			<div id="ShowOnlyIfContactMeIsChecked" style="display: none;">
+			<div class="row" >
+            <section class="col-md-5 offset-left" >
+<p class="text-left mb-0 pl-10 size14">First Name</p>
+              <label class="input">
+                <input type="text" name="First_Name" class="inputcapitalize" id="First_Name" >
+              </label>
+            </section>
+            <section class="col-md-5 offset-left" >
+			<p class="text-left mb-0 pl-10 size14">Last Name</p>	
+              <label class="input">
+                <input type="text" name="Last_Name" class="inputcapitalize" id="Last_Name" >
+              </label>
+            </section>
+          </div>
+			<div class="row">
+			  <section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Company</p>
+              <label class="input">
+                <input type="text" name="Company" class="inputcapitalize" id="Company"  >
+              </label>
+            </section >
+			<section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Business Phone</p>
+              <label class="input">
+                <input type="tel" name="Phone" id="Phone">
+              </label>
+            </section>
+			
+			</div>
+			
+			<!-- end -->
+			 </div>
+            <div class="row" >
+				<section class="col-md-5 offset-left">
+					
+					<label class="checkbox" >
+                <input type="checkbox" name="Contact_Me" id="Contact_Me" value="No">
+                <i id="checkboxicon"></i>
+                <div id="comp_label">I wish to be contact by an ADP representative </div>
+                </label>
+			
+             
+            </section>
+            <section class="col-md-5 offset-left">
+				<p class="text-left mb-0 pl-10 size14">Are you an ADP client? </p>
+              <label id="" class="select">
+                <select name="ADP_Client" id="ADP_Client" class="selectlist">
+                  <option selected="selected" hidden value="">(Please choose)</option>
+                  <option value="Client">Yes I am a ADP client</option>
+                  <option value="Prospect">No I am not an ADP client</option>
+                </select>
+              </label>
+            </section>
+			
+          </div>
+			
+        </fieldset>
+        <div class="row">
+          <div class="col-12">
+            <div class="submitbuttonshell ">
+              <input type="submit" name="submit" class="adpbutton" id="btnpadding" value="Download Now">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="privacy"> Your <a href="https://www.adp.com/privacy.aspx" target="_blank">privacy</a> is assured. </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- End Form -->	
+
+<!-- START SCRIPTS FOR AUTO VALUE LOOK UP -->
+<script type="text/javascript" language="JavaScript">
+
+function setFormFieldValue(elqForm, strFormFieldName, strContactFieldName){
+    if (elqForm.elements[strFormFieldName])
+        elqForm.elements[strFormFieldName].value = GetElqContentPersonalizationValue(strContactFieldName);
+}
+function SetElqContent(){
+    if (this.GetElqContentPersonalizationValue){
+        var elqForm;
+        var blnFound = false;	 
+        for (var formIndex = 0; formIndex < document.forms.length; formIndex++)
+        {
+            for (var elemIndex = 0; elemIndex < document.forms[formIndex].length; elemIndex++)
+            {
+                if (document.forms[formIndex].elements[elemIndex].name == "elqFormName")
+                {
+                    if (document.forms[formIndex].elements[elemIndex].value == "***** E D I T*****")//use the elqFormName
+                    {
+                        elqForm = document.forms[formIndex];
+                        blnFound = true;
+                        break;
+                    }
+                }
+            }
+            if (blnFound) break;
+        }
+
+        if (elqForm)
+        {
+            setFormFieldValue(elqForm, "Email", "V_Email_Address");
+			setFormFieldValue(elqForm, "First_Name", "V_First_Name");
+			setFormFieldValue(elqForm, "Last_Name", "V_Last_Name");
+			setFormFieldValue(elqForm, "Phone", "V_Business_Phone1");
+			setFormFieldValue(elqForm, "Company", "V_Account_Name1p");
+			setFormFieldValue(elqForm, "Zip_or_Postal_Code", "V_Zip_or_Postal_Code1p");
+			setFormFieldValue(elqForm, "Number_of_Employees", "V_No__of_Employees1p");
+			setFormFieldValue(elqForm, "Country", "V_Country1p");
+			
+        }
+    } 
+	
+
+}
+</script>
+<!-- END SCRIPTS FOR AUTO VALUE LOOK UP -->	
+
+<!-- /\/\/\ END CONTENT /\/\/\ -->
+	
+	
+<!-- START Footer -->	
+<footer id="footer-static">
+  <div class="row center-block">
+    <div class="col-xs-12 col-sm-9 text-xs-center">
+      <ul class="sm-links">
+        <li> <a class="sm-icn sm-icn-facebook" href="https://www.facebook.com/AutomaticDataProcessing/?elqTrackId=34acfef7df6942e9b1169ac5ef4cee8a"></a></li>
+        <li><a class="sm-icn sm-icn-twitter" href="https://twitter.com/adp?elqTrackId=8736e9ffeac84d608a9921c80e324d76"></a></li>
+        <li><a class="sm-icn sm-icn-youtube" href="https://www.youtube.com/user/adp?elqTrackId=9fa9f30a8062420ca65c344204c98b8b"></a></li>
+        <li><a class="sm-icn sm-icn-linkedin" href="https://www.linkedin.com/company/adp?elqTrackId=85777ee0cf794edbaabee88866022fdf"></a></li>
+        <li><a class="sm-icn sm-icn-googleplus" href="https://plus.google.com/113704408436778247421?elqTrackId=93dab05c77254de6982ead941f9a1f1d"></a></li>
+      </ul>
+      <ul class="legal-links">
+        <li><a href="https://www.adp.com/legal.aspx?elqTrackId=682d85e69df54e809e45f1ff62f91016">Terms</a></li>
+        <li><a href="https://www.adp.com/privacy.aspx?elqTrackId=8eaee5e38e504b049b70693a14e03010">Privacy</a></li>
+        <li><a href="https://www.adp.com/modern-slavery-statement.aspx?elqTrackId=33d1d5c93de7472eafa25f63a154103d">Modern Slavery Statement</a></li>
+      </ul>
+      <p class="size12"><span elqid="3434" elqtype="Section" class="remove-absolute" style="display: block"></span></p>
+    </div>
+  </div>
+</footer>
+<!-- END Footer -->
+	
+	
+</div>	
+<!-- end body wrapper-->
+
+<!-- START local js files delete when placing in Eloqua  --> 
+<script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/ct.form.validation.jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/ct.form.validation.jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/lity.min.js"></script><!-- Video Modal -->
+<script type="text/javascript" src="js/form.control.autofill.js"></script>	 
+
+<!-- END local js files delete when placing in Eloqua --> 	
+
+<!-- START external js files. remove comments when placing in Eloqua --> 
+<!--
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="https://img.en25.com/Web/ADPEmployerServices/{1f41eb1f-ae28-4739-b8b8-785a2a336e3a}_ct.form.validation.jquery.validate.min.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{3e6605ed-57a4-4546-a67d-819af12536c8}_ct.form.validation.jquery.maskedinput.min.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{e102f117-7532-467d-861c-a057817fab24}_lity.min.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{dff2c904-22b6-402b-8ef0-b7a3b43a63f8}_form.control.autofill.js"></script>
+<script src="https://img.en25.com/Web/ADPEmployerServices/{1390f977-3e5c-4317-9b82-849f693d446b}_includer.js"></script>
+-->
+
+<!-- END external js files. remove comments when placing in Eloqua -->
+	
+	
+<!-- START script for check box toggle -->	
+<script>
+$("#checkboxicon" ).click(function() {
+  $(this).toggleClass( "fas fa-check" );
+});
+</script>
+<!-- END script for check box toggle -->	
+	
+<!-- START script for Contact Me check box -->	
+<script type="text/javascript">
+
+		  $("#Contact_Me").click(function () {
+				if ($(this).prop('checked') === true) {
+					$(this).val("Yes");
+					$('#ShowOnlyIfContactMeIsChecked').slideToggle(); // .show();
+					$('input[name=ShowOnlyIfContactMeIsChecked').prop('required',true); 
+					$('#First_Name').rules('add', {
+						required: true   // set a new rule
+					});
+					$('#Last_Name').rules('add', {
+						required: true   // set a new rule
+					});
+					
+					$('#Phone').rules('add', {
+						required: true   // set a new rule
+					});
+					$('#Company').rules('add', {
+						required: true   // set a new rule
+					});
+				
+				} else {
+					$(this).val("No");
+					$('#ShowOnlyIfContactMeIsChecked').slideToggle(); 
+					$('input[name=ShowOnlyIfContactMeIsChecked').prop('required',false); 
+					$('#First_Name').rules('add', {
+						required: false   // set a new rule
+					});
+					$('#Last_Name').rules('add', {
+						required: false   // set a new rule
+					});
+					
+					$('#Phone').rules('add', {
+						required: false   // set a new rule
+					});
+					$('#Company').rules('add', {
+						required: false   // set a new rule
+					});
+					
+				}
+});
+</script>	
+	
+<!-- END script for Contact me check box -->	
+	
+	
+
+<!-- START SCROLL SCRIPT -->
+<!-- add id onto item being clicked and id to scroll to location -->
+<script type="text/javascript">	
+$(document).ready(function() {  
+    $('#contactme').click(function(){
+        $('html, body').animate({scrollTop: ($('.quote-form').offset().top)},500);
+    });
+});	
+</script>
+<!-- END SCROLL SCRIPT -->	
+	
+<!-- START FORM FIELD VALIDATION -->        
+		<script type="text/javascript">
+			$(function()
+			{
+				// Validation
+				$("#adp-form").validate(
+				{					
+					// SECTION BELOW HANDLES FORM FIELD VALIDATION.
+					rules:
+					{
+						Email:{required: true,email: true},
+						Number_of_Employees:{required: true,digits: true,maxlength:6},
+						Zip_or_Postal_Code:{required: true,digits: true,maxlength:5},
+						Country:{required: true},
+						ADP_Client:{required: true},
+						/*State_or_Province:{required: true},*/
+						/*comments:{required: false},*/
+						/*multiselect:{required: true},*/
+						/*'checkboxgrp1[]':{required: true},*/
+						/*'checkboxgrp2[]':{required: true},*/
+						/*radiogrp1:{required: true},*/
+						/*radiogrp2:{required: true} */	
+					},
+					
+					/* SECTION BELOW HANDLES ERROR MESSAGES BELOW QUESTION*/
+					messages:
+					{
+						Email:
+						{required: 'Enter your email address in the field above.',email: 'Enter a valid email address in the field above.'},
+						
+						First_Name:
+						{required: 'Enter your first name in the field above.'},
+						
+						Last_Name:
+						{required: 'Enter your last name in the field above.'},
+
+						Phone:
+						{required: 'Enter your phone number in the field above.'},
+
+						Company:
+						{required: 'Enter company name in the field above.'},
+
+						Number_of_Employees:
+						{required: 'Enter total employees in the above field.',digits: 'Numerical values only please.'},
+
+						Zip_or_Postal_Code:
+						{required: 'Please enter zip code',digits: 'Numerical values only please.'},
+
+						Country:
+						{required: 'Please choose a country from the field above.'},
+
+						ADP_Client:
+						{required: 'Please choose an answer value above.'},
+                    
+						State_or_Province:
+						{required: 'Choose a state from the field above.'},
+						
+						country:
+						{required: 'Please select your country'},
+						
+						city:
+						{required: 'Please enter your city'},
+
+						select:
+						{required: 'Please select an option'},
+
+						multiselect:
+						{required: 'Please select one or more options'},
+						
+						'checkboxgrp[]':
+						{required: 'Please select one or more options'},
+						
+						radio:
+						{required: 'Please select an option'}
+						
+					},	
+			
+					/* SubmitHandler disables the submit button to prevent double submissions on slow form response	*/
+			submitHandler: function (form) {$(".adpbutton").attr("disabled", true).val("Please wait ...");form.submit(); 
+        },
+			
+					
+					/* Do not change code below*/
+					errorPlacement: function(error, element){error.insertAfter(element.parent());}
+				});
+			});			
+		</script>
+<!-- STOP FORM FIELD VALIDATION -->   
+	
+	 <!-- Phone Mask Script --> 
+		<script type="text/javascript">
+			$(function()
+			{
+			// Masking
+ 			  $("#Phone").mask('(999) 999-9999');
+			});			
+		</script>	
+
+<script type="text/javascript">
+// used to format the number of employees no decimal
+$(window).on('load',function() {
+$('.decimal').each(function(){
+    if($(this).val().indexOf('.')!=-1){         
+        if($(this).val().split(".")[1].length > 2){                
+            if( isNaN( parseFloat( this.value ) ) ) return;
+            this.value = parseFloat(this.value).toFixed(0);
+        }  
+     }            
+     return this; //for chaining
+});
+});	   
+</script>	
+	
+<!-- START URL Parameter Extraction Script -->	
+<script type="text/javascript">
+// 1. Call $.urlParam with the name of the parameter (case-sensitive) you want to retrieve the value for and set it = to a variable.
+// Example:  var kw = $.urlParam('Keyword');
+// 2. Then set the variable to the field value.
+// Example:  $('#Keyword').val(kw);
+
+
+$(document).ready(function() {
+  
+  var gcl_id = $.urlParam('gclid');
+  var gcl_src = $.urlParam('gclsrc');
+  var ecid = $.urlParam('elqCampaignId');
+  var camp = $.urlParam('CID'); 
+  var pid = $.urlParam('promoid');
+  var q_1 = $.urlParam('q1');
+  var q_2 = $.urlParam('q2');
+  var q_3 = $.urlParam('q3');
+  var kw = $.urlParam('Keyword');
+  var kmt = $.urlParam('Keyword_Match_Type');  
+  var dccampid = $.urlParam('dc_campid'); 
+  var dcadgroupid = $.urlParam('dc_adgroupid'); 
+  var rs = $.urlParam('Referring_Source');
+  var aci = $.urlParam('Ad_Content_ID'); 
+  var sfdcownerid = $.urlParam('LOID');
+  var vn = $.urlParam('VEN');
+  var pos = $.urlParam('position');
+  var place = $.urlParam('placement');
+  var tid = $.urlParam('targetid');
+  var nw = $.urlParam('network');
+  var dv = $.urlParam('device');  
+  var lpi = $.urlParam('Landing_Page_ID');
+  var url = document.location;
+  var refurl = document.referrer;
+  
+  if (nw == "d") {$('#Lead_Source_Detail').val("Display");} 
+	else 
+	{
+	if (kw.length > 0) 
+	{$('#Lead_Source_Detail').val("SEM - Contact Me");} 
+	else 
+	{$('#Lead_Source_Detail').val("Contact Me");}
+  }
+  
+  if (gcl_id.length > 0) { $('#gclid').val(gcl_id); }
+  if (gcl_src.length > 0) { $('#gclsrc').val(gcl_src); }
+  if (ecid.length > 0) { $('#elqCampaignId').val(ecid); }
+  if (camp.length > 0) {$('#Wild_Card_2').val(camp); } //cid
+  if (pid.length > 0) { $('#PromoID').val(pid); }
+  if ( q_1.length > 0) { $('#q1').val(q_1); }
+  if ( q_2.length > 0) { $('#q2').val(q_2); }
+  if ( q_3.length > 0) { $('#q3').val(q_3); }
+  if ( kw.length > 0) { $('#Keyword').val(kw); }
+  if ( kmt.length > 0) { $('#Keyword_Match_Type').val(kmt); }
+  if ( dccampid.length > 0) { $('#dc_campid').val(dccampid); }
+  if ( dcadgroupid.length > 0) { $('#dc_adgroupid').val(dcadgroupid); }
+  if ( rs.length > 0) { $('#Referring_Source').val(rs); }
+  if ( aci.length > 0) { $('#Ad_Content_ID').val(aci); }
+  if ( sfdcownerid.length > 0) { $('#SFDC_Owner_ID').val(sfdcownerid); }
+  if ( vn.length > 0) { $('#Vendor_Name').val(vn); }
+  if ( pos.length > 0) { $('#position').val(pos); }
+  if ( place.length > 0) { $('#placement').val(place); }
+  if ( tid.length > 0) { $('#targetid').val(tid); }
+  if ( nw.length > 0) { $('#network').val(nw); }
+  if ( dv.length > 0) { $('#device').val(dv); }
+  if ( lpi.length > 0) { $('#Landing_Page_ID').val(lpi); }
+  $('#URL').val(url);  
+  $('#Referring_URL').val(refurl);
+});
+
+$.urlParam = function(name){
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	var regex = new RegExp("[\\?&]" + name + "=([^&#]*)","i");
+    results = regex.exec(location.search);
+	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+</script>		
+<!-- END URL Parameter Extraction Script -->		
+
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

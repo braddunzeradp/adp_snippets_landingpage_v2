@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Hosted JavaScript file" description="">
+<insertText location="beforeSelection">
+<![CDATA[<script src="https://img.en25.com/Web/ADPEmployerServices/{e102f117-7532-467d-861c-a057817fab24}_lity.min.js"></script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
